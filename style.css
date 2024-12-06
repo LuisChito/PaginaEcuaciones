@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Estilo del header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+}
+
+/* Contenedor principal */
+main {
+  width: 100%;
+  max-width: 800px; /* Limitar el ancho máximo */
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Secciones dentro del main */
+section {
+  margin-bottom: 20px;
+}
+
+/* Estilos para etiquetas */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+/* Estilos para inputs, selects y botón */
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilos para el botón */
+button {
+  background-color: #4CAF50; /* Fondo verde */
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 20%; /* El botón ocupará todo el ancho del formulario */
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block; /* Asegura que no se estire innecesariamente */
+}
+
+/* Efecto cuando el botón es hover (cuando el cursor pasa sobre el botón) */
+button:hover {
+  background-color: #45a049; /* Fondo verde más oscuro */
+  box-shadow: 0 0 5px rgba(72, 160, 72, 0.5); /* Efecto de sombra suave */
+}
+
+
+#procedure {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #ddd;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilo para el título */
+h1 {
+  text-align: center; /* Centrar el título */
+  font-size: 2rem;
+  margin-top: 90px; /* Añadir espacio desde la parte superior */
+  margin-bottom: 20px; /* Separación del título con otros elementos */
+  padding-bottom: 10px; /* Espacio entre el texto y la línea */
+  border-bottom: 3px solid #4CAF50; /* Línea verde que combina con el diseño */
+}
